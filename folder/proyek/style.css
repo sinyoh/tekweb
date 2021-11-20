@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+
+.container .login-text {
+    font-style: bold;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container .register-text{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
+.container .login-email .input-group input{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #303030;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    background:transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.container .login-email .input-group input:hover{
+    border: 2px solid rgb(0, 183, 255);
+}
+
+.container .login-email .btn{
+    display: block;
+    width: 100%; 
+    padding: 15px 20px;
+    background-color: #303030;
+    outline: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.container .login-email .btn:hover{
+    background: rgb(0, 183, 255);
+}
+
+.login-register-text{
+    font-weight: 600;
+    font-size: .8rem;
+    padding-top: 10px;
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+.login-register-text a{
+    text-decoration: none;
+}
+
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
